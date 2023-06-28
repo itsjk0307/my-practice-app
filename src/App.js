@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import Counter from "./Components/ReducerHook/Counter";
+import FocusInput from "./Components/UseRefHook/FocusInput";
 
 function App() {
   return (
     <div className="app">
-      <Counter />
+      <FocusInput />
     </div>
   );
 }
