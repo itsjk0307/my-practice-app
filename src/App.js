@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import FocusInput from "./Components/UseRefHook/FocusInput";
+import DocTitleOne from "./Components/CustomHooks/DocTitleOne";
 
 function App() {
   return (
     <div className="app">
-      <FocusInput />
+      <DocTitleOne />
     </div>
   );
 }
