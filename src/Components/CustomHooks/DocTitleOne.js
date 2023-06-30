@@ -5,6 +5,7 @@ function DocTitleOne() {
 
   useEffect(() => {
     document.title = `Count ${count}`;
+    document.title = `Count ${count}`;
   });
   return (
     <div>
