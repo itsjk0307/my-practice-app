@@ -3,6 +3,7 @@ import UseDocTittle from "../Hooks/UseDocTittle";
 
 function DocTitleOne() {
   const [count, setCount] = useState(0);
+
   UseDocTittle(count);
   return (
     <div>
